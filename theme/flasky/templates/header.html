@@ -1,0 +1,10 @@
+
+<div class="ui-header"> <h1> My logo </h1></div>
+      <div class=navigation>
+        <ul>
+          {% for section in SECTIONS %}
+            <li><a href="{{ SITEURL }}/{{ section[1]}}">{{ section[0] }}</a> </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class=separator></div>
